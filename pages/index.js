@@ -24,7 +24,7 @@ export default function Home() {
 
       <div>
         {/* <img src='/coding.png' alt="computer pic" /> */}
-        <h1 className='img'>Hello, I'm Tae<br/>I'm a full stack web developer and software engineer</h1>
+        <h1 className='img'>Hello, I'm Tae<br/>I'm a full stack web developer / software engineer</h1>
       </div>
 
 {/* 
@@ -39,10 +39,7 @@ export default function Home() {
         <h2>Skills</h2>
       </div> */}
 
-      <div className='center'>
-        <button>Download Resume</button>
-        <a href='https://docs.google.com/document/d/1_qkIe_8ku7_a8hvbinQsab8Ouipq9re6jDkVOT2IHGs/edit?usp=sharing' download></a>
-      </div>
+
     </div>
   )
 }
