@@ -3,16 +3,32 @@ import Link from 'next/link'
 
 export default function Navbar() {
     return (
-        <nav>
+        <nav className='center'>
             {/* we can use anchor tag. that works but next provides another option */}
-            <Link href='/'>
-                {/* <a>Home</a> */}
-                Home
-            </Link>
+            <div className='spacer'>
+                <Link href='/'>
+                    <h3>Home</h3>
+                </Link>
+            </div>
 
-            <Link href='/about'>
-                About Me
-            </Link>
+            <div className='spacer'>
+                <Link href='/portfolio'>
+                    <h3>Portfolio</h3>
+                </Link>
+            </div>
+
+            <div className='spacer'>
+                <Link href='/about'>
+                    <h3>About</h3>
+                </Link>
+            </div>
+
+            <div className='spacer'>
+                <Link href='/contact'>
+                    <h3>Contact</h3>
+                </Link>
+            </div>
+            
         </nav>
     )
 }
