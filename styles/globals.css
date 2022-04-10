@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-  padding: 3px;
+  padding: 100px;
   display: flex;
   /* justify-content: center; */
 }
@@ -31,10 +31,16 @@ a {
 }
 
 .footer {
+  /* position: absolute; */
   position: relative;
+  /* position: sticky; */
   left: 0;
   right: 0;
   bottom: 0;
+}
+
+.blank-space {
+  margin: 138px
 }
 
 .spacer{
@@ -58,8 +64,9 @@ a {
 .img {
   /* position: relative; */
   /* z-index: 1; */
-  background: transparent url('/coding.png') top right no-repeat;
+  background: transparent url('/coding.png') left no-repeat;
   height: 1000px;
+  width: 1350px;
   /* width: 1350px */
 }
 

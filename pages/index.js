@@ -22,22 +22,10 @@ export default function Home() {
         />
       </div> */}
 
-      <div>
+      <div className='center'>
         {/* <img src='/coding.png' alt="computer pic" /> */}
-        <h1 className='img'>Hello, I'm Tae<br/>I'm a full stack web developer / software engineer</h1>
+        <h1 className='img'>Hello! I'm Tae,<br/>a full stack web developer<br/> and software engineer</h1>
       </div>
-
-{/* 
-      <h1>Hello, I'm Tae</h1>
-      <h1>I'm a full stack web developer and software engineer</h1> */}
-
-      {/* <div className='portfolio'>
-        <h2>Portfolio</h2>
-      </div> */}
-
-      {/* <div className='skills'>
-        <h2>Skills</h2>
-      </div> */}
 
 
     </div>

@@ -5,10 +5,10 @@ import styles from '../styles/Home.module.css'
 export default function Contact() {
     return (
         <div className={styles.container}>
-            <h1 >Contact Information</h1>
-            <h4>
+            <h1 className='center'>Contact Information</h1>
+            <h3 className='center'>
                 Please don't hesitate to reach out through email or LinkedIn. Would love to connect!
-            </h4>
+            </h3>
 
             <div className='start'>
                 <h2 className=''>Email</h2>
@@ -48,7 +48,10 @@ export default function Contact() {
                     />
                 </a>
             </div>
-    
+
+            <div className='blank-space'>
+
+            </div>
         </div>
     )
 }
