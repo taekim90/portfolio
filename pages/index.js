@@ -24,7 +24,7 @@ export default function Home() {
 
       <div className="center">
         {/* <img src="/coding.png" alt="computer pic" /> */}
-        <h1 className="img">Hello! I'm Tae,<br/>a full stack web developer<br/> and software engineer</h1>
+        <h1 className="img">Hello! I&apos;m Tae,<br/>a full stack web developer<br/> and software engineer</h1>
       </div>
 
 

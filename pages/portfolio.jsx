@@ -8,8 +8,8 @@ export default function Portfolio() {
             <h2 className="center">Portfolio</h2>
 
             <div className="div-space">
-                <a href="https://taekim90.github.io/First-Project-Color-Pipes/" target="_blank" className="center underline">Color Pipes</a>
-                <Link href="https://taekim90.github.io/First-Project-Color-Pipes/" target="_blank">
+                <a href="https://taekim90.github.io/First-Project-Color-Pipes/" target="_blank" rel="noopener noreferrer" className="center underline" >Color Pipes</a>
+                <Link href="https://taekim90.github.io/First-Project-Color-Pipes/" target="_blank" rel="noopener noreferrer">
                     <a className='center'>
                         <Image
                             src="/pipes.png"             
@@ -22,8 +22,8 @@ export default function Portfolio() {
             </div>
       
             <div className="div-space">
-                <a href="https://the-travel-buddy-v1.herokuapp.com/" target="_blank" className="center underline">The Travel Buddy</a>
-                <Link href="https://the-travel-buddy-v1.herokuapp.com/" target="_blank">
+                <a href="https://the-travel-buddy-v1.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="center underline">The Travel Buddy</a>
+                <Link href="https://the-travel-buddy-v1.herokuapp.com/" target="_blank" rel="noopener noreferrer">
                     <a className='center'>
                         <Image 
                             src="/airplane.png"             
@@ -36,8 +36,8 @@ export default function Portfolio() {
             </div>
             
             <div className="div-space">
-                <a href="https://kat-inventory-management.netlify.app/login" target="_blank" className="center underline">KAT Inventory Management - Group Project</a>
-                <Link href="https://kat-inventory-management.netlify.app/login" target="_blank">
+                <a href="https://kat-inventory-management.netlify.app/login" target="_blank" rel="noopener noreferrer" className="center underline">KAT Inventory Management - Group Project</a>
+                <Link href="https://kat-inventory-management.netlify.app/login" target="_blank" rel="noopener noreferrer">
                     <a className='center'>
                         <Image 
                             src="/inventory.png"             

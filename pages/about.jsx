@@ -17,7 +17,7 @@ export default function About() {
                 </div>
                 <div>
                     <h3 className="center"> 
-                        I'm a former speech language pathologist turned software engineer.
+                        I&apos;m a former speech language pathologist turned software engineer.
                         I incorporate my passion for helping people by developing functional applications that 
                         can positively impact the lives of those around us. I enjoy taking on new challenges
                         that can stetch my mind and help result in both personal and professional progress
