@@ -1,6 +1,8 @@
 import '../styles/globals.css'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
+// import 'bootstrap/dist/css/bootstrap.css';
+import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return(
@@ -10,10 +12,6 @@ function MyApp({ Component, pageProps }) {
       <main>
         <Component {...pageProps} />
       </main>
-
-      {/* <footer>
-        © Tae Kim {new Date().getFullYear()}
-      </footer> */}
 
       <Footer />
     </>

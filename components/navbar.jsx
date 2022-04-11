@@ -1,31 +1,31 @@
 // built in lin for SSR optimization and SEO from next
-import Link from 'next/link'
+import Link from "next/link"
 
 export default function Navbar() {
     return (
-        <nav className='center'>
+        <nav className="center nav">
             {/* we can use anchor tag. that works but next provides another option */}
-            <div className='spacer'>
-                <Link href='/'>
-                    <h3>Home</h3>
+            <div className="spacer">
+                <Link href="/">
+                    <h3 className='underline'>Home</h3>
                 </Link>
             </div>
 
-            <div className='spacer'>
-                <Link href='/portfolio'>
-                    <h3>Portfolio</h3>
+            <div className="spacer">
+                <Link href="/portfolio">
+                    <h3 className='underline'>Portfolio</h3>
                 </Link>
             </div>
 
-            <div className='spacer'>
-                <Link href='/about'>
-                    <h3>About</h3>
+            <div className="spacer">
+                <Link href="/about">
+                    <h3 className='underline'>About</h3>
                 </Link>
             </div>
 
-            <div className='spacer'>
-                <Link href='/contact'>
-                    <h3>Contact</h3>
+            <div className="spacer">
+                <Link href="/contact">
+                    <h3 className='underline'>Contact</h3>
                 </Link>
             </div>
             
