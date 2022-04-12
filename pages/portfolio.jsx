@@ -8,7 +8,7 @@ export default function Portfolio() {
             <h2 className="center">Portfolio</h2>
 
             <div className="div-space">
-                <a href="https://taekim90.github.io/First-Project-Color-Pipes/" target="_blank" rel="noopener noreferrer" className="center underline" >Color Pipes</a>
+                <a href="https://taekim90.github.io/First-Project-Color-Pipes/" target="_blank" rel="noopener noreferrer" className="center underline" >Colored Pipes</a>
                 <Link href="https://taekim90.github.io/First-Project-Color-Pipes/" target="_blank" rel="noopener noreferrer">
                     <a className='center'>
                         <Image
