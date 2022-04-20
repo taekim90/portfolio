@@ -48,6 +48,20 @@ export default function Portfolio() {
                     </a>
                 </Link>
             </div>
+
+            <div className="div-space">
+                <a href="https://bloggit-v1.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="center underline">BloggIt</a>
+                <Link href="https://bloggit-v1.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                    <a className='center'>
+                        <Image 
+                            src="/bloggit.png"             
+                            alt="blog"
+                            width={500}
+                            height={400}
+                        />
+                    </a>
+                </Link>
+            </div>
         </div>
     )
 }
