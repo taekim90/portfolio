@@ -15,7 +15,7 @@ export default function Contact() {
                 <h3 className="start">taehk15@gmail.com</h3>               
                 <a className="center spacer" href="mailto:taehk15@gmail.com" target="_blank" rel="noopener noreferrer">
                     <Image 
-                        src="https://img.icons8.com/doodle/48/000000/newsletter.png"
+                        src="https://img.icons8.com/external-nawicon-outline-color-nawicon/50/000000/external-email-communication-nawicon-outline-color-nawicon-2.png"
                         alt="email logo"
                         width={50}
                         height={50}
@@ -41,7 +41,7 @@ export default function Contact() {
                 <h3 className="start">github.com/taekim90</h3>               
                 <a className="center small-spacer" href="https://github.com/taekim90" target="_blank" rel="noopener noreferrer">
                     <Image 
-                        src="https://img.icons8.com/plasticine/100/000000/github.png"
+                        src="https://img.icons8.com/fluency/50/000000/github.png"
                         alt="github logo"
                         width={50}
                         height={50}

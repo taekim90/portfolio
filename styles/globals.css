@@ -143,3 +143,13 @@ a {
   margin-left: 200px;
   margin-right: 200px
 }
+
+@media only screen and (min-width: 750px) {
+  .squeeze-center {
+    margin-left: 25%;
+    margin-right: 25%;
+    display: flex;
+    justify-content:flex-start
+  }
+}
+
