@@ -6,6 +6,7 @@ export default function Portfolio() {
     return (
         <div>
             <h2 className="center">Portfolio</h2>
+            <div className="flex-wrap">
 
             <div className="div-space">
                 <a href="https://taekim90.github.io/First-Project-Color-Pipes/" target="_blank" rel="noopener noreferrer" className="center underline" >Colored Pipes</a>
@@ -16,7 +17,7 @@ export default function Portfolio() {
                             alt="pipes"
                             width={500}
                             height={400}
-                        />
+                            />
                     </a>
                 </Link>
             </div>
@@ -30,7 +31,7 @@ export default function Portfolio() {
                             alt="airplane"
                             width={500}
                             height={400}
-                        />
+                            />
                     </a>
                 </Link>
             </div>
@@ -44,7 +45,7 @@ export default function Portfolio() {
                             alt="inventory"
                             width={500}
                             height={400}
-                        />
+                            />
                     </a>
                 </Link>
             </div>
@@ -58,9 +59,10 @@ export default function Portfolio() {
                             alt="blog"
                             width={500}
                             height={400}
-                        />
+                            />
                     </a>
                 </Link>
+            </div>
             </div>
         </div>
     )
