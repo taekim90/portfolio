@@ -6,7 +6,7 @@ export default function Footer() {
         <div className="footer">
             <div className="center">
                 {/* <button>Download Resume</button> */}
-                <a href="https://docs.google.com/document/d/1_qkIe_8ku7_a8hvbinQsab8Ouipq9re6jDkVOT2IHGs/export?format=pdf" target="_blank">
+                <a href="https://docs.google.com/document/d/1_qkIe_8ku7_a8hvbinQsab8Ouipq9re6jDkVOT2IHGs/export?format=pdf" target="_blank" rel="noopener noreferrer">
                     <button>Download Resume</button>
                 </a>
             </div>

@@ -9,7 +9,7 @@ export default function Portfolio() {
             <div className="flex-wrap">
 
             <div className="div-space">
-                <a href="https://taekim90.github.io/Color-Pipes/" target="_blank" rel="noopener" className="center underline" >Colored Pipes</a>
+                <a href="https://taekim90.github.io/Color-Pipes/" target="_blank" rel="noopener noreferrer" className="center underline" >Colored Pipes</a>
                 <Link href="https://taekim90.github.io/Color-Pipes/">
                     <a className="center" target="_blank" rel="noopener noreferrer">
                         <Image
@@ -23,7 +23,7 @@ export default function Portfolio() {
             </div>
       
             <div className="div-space">
-                <a href="https://the-travel-buddy-v1.herokuapp.com/" target="_blank" rel="noopener" className="center underline">The Travel Buddy</a>
+                <a href="https://the-travel-buddy-v1.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="center underline">The Travel Buddy</a>
                 <Link href="https://the-travel-buddy-v1.herokuapp.com/">
                     <a className="center" target="_blank" rel="noopener noreferrer">
                         <Image 
@@ -37,7 +37,7 @@ export default function Portfolio() {
             </div>
             
             <div className="div-space">
-                <a href="https://kat-inventory-management.netlify.app/login" target="_blank" rel="noopener" className="center underline">KAT Inventory Management - Group Project</a>
+                <a href="https://kat-inventory-management.netlify.app/login" target="_blank" rel="noopener noreferrer" className="center underline">KAT Inventory Management - Group Project</a>
                 <Link href="https://kat-inventory-management.netlify.app/login">
                     <a className="center" target="_blank" rel="noopener noreferrer">
                         <Image 
@@ -51,7 +51,7 @@ export default function Portfolio() {
             </div>
 
             <div className="div-space">
-                <a href="https://bloggit-v1.herokuapp.com/" target="_blank" rel="noopener" className="center underline">BloggIt</a>
+                <a href="https://bloggit-v1.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="center underline">BloggIt</a>
                 <Link href="https://bloggit-v1.herokuapp.com/">
                     <a className="center" target="_blank" rel="noopener noreferrer">
                         <Image 
