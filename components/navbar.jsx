@@ -5,27 +5,27 @@ export default function Navbar() {
     return (
         <nav className="center nav">
             {/* we can use anchor tag. that works but next provides another option */}
-            <div className="spacer">
-                <Link href="/">
-                    <h3 className='underline'>Home</h3>
+            <div className="spacer underline">
+                <Link href="/" className='underline'>
+                    Home
                 </Link>
             </div>
 
-            <div className="spacer">
-                <Link href="/portfolio">
-                    <h3 className='underline'>Portfolio</h3>
+            <div className="spacer underline">
+                <Link href="/portfolio" className='underline'>
+                    Portfolio
                 </Link>
             </div>
 
-            <div className="spacer">
-                <Link href="/about">
-                    <h3 className='underline'>About</h3>
+            <div className="spacer underline">
+                <Link href="/about" className='underline'>
+                    About
                 </Link>
             </div>
 
-            <div className="spacer">
-                <Link href="/contact">
-                    <h3 className='underline'>Contact</h3>
+            <div className="spacer underline">
+                <Link href="/contact" className='underline'>
+                    Contact
                 </Link>
             </div>
             
