@@ -20,6 +20,7 @@ export default function Portfolio() {
                             />
                     </a>
                 </Link>
+                <div className="center">Tech Stack: HTML, CSS, JavaScript</div>
             </div>
       
             <div className="div-space">
@@ -34,6 +35,7 @@ export default function Portfolio() {
                             />
                     </a>
                 </Link>
+                <div className="center">Tech Stack: HTML, CSS, JavaScript, Node, Express, Sequelize, PostgreSQL</div>
             </div>
             
             <div className="div-space">
@@ -48,6 +50,7 @@ export default function Portfolio() {
                             />
                     </a>
                 </Link>
+                <div className="center">Tech Stack: HTML, CSS, JavaScript, MongoDB, Express, React, Node</div>
             </div>
 
             <div className="div-space">
@@ -62,6 +65,7 @@ export default function Portfolio() {
                             />
                     </a>
                 </Link>
+                <div className="center">Tech Stack: HTML, CSS, Python, Django, PostgreSQL</div>
             </div>
             </div>
         </div>
